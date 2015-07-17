@@ -1,0 +1,7 @@
+{
+	"summonerEvents": {
+		"GET_SUMMONER_BY_NAME": "summonerEvents::getSummonerByName",
+		"GET_SUMMONER_BY_NAME_SUCCESS": "summonerEvents::getSummonerByName::succes",
+		"GET_SUMMONER_BY_NAME_ERROR": "summonerEvents::getSummonerByName::error"
+	}
+}

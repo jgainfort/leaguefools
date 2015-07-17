@@ -1,0 +1,8 @@
+{
+	"baseUrl" : "https://na.api.pvp.net",
+	"key": "dee0ab01-7889-4a70-aaa2-0d44530f6ea2",
+	"paths": {
+		"getSummonerByName": "/api/lol/na/v1.4/summoner/by-name/",
+		"getStatsBySummonerId": "/api/lol/na/v1.3/stats/by-summoner/{ID}/summary/"
+	}
+}

@@ -1,3 +1,5 @@
+/// <reference path="typings/node/node.d.ts"/>
+
 var app = require('koa')();
 var server = require('http').createServer(app.callback());
 var io = require('socket.io')(server);

@@ -1,4 +1,4 @@
-/// <reference path="libs/typings/angular2/angular2" />
+/// <reference path="../../typings/angular2/angular2" />
 /// <reference path="services" />
 if (typeof __decorate !== "function") __decorate = function (decorators, target, key, desc) {
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") return Reflect.decorate(decorators, target, key, desc);
@@ -12,8 +12,7 @@ if (typeof __metadata !== "function") __metadata = function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var angular2_1 = require("angular2/angular2");
-var services_1 = require("js/services");
-var socket = io();
+var services_1 = require("services");
 // Annotation section
 var MyAppComponent = (function () {
     function MyAppComponent(summonerService) {

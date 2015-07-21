@@ -1,8 +1,8 @@
-/// <reference path="libs/typings/angular2/angular2" />
+/// <reference path="../../typings/angular2/angular2" />
 /// <reference path="services" />
 
 import {Component, View, bootstrap} from "angular2/angular2";
-import {SummonerService} from "js/services";
+import {SummonerService} from "services";
 
 // Annotation section
 @Component({
